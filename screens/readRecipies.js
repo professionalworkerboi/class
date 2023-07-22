@@ -31,8 +31,8 @@ export default class ReadRecipies extends React.Component{
   catch(error){
     console.log(error)
   }}
-  searchFilterFunction(text{})
-  render(){
+  searchFilterFunction(text,{})
+  render();{
     return(
       <View styles={styles.container}>
         <ImageBackground source={require("../assets/background2.jpeg")} style ={styles.backgroundImageTwo}/>
@@ -42,6 +42,7 @@ export default class ReadRecipies extends React.Component{
     )
   }
 }
+
 const styles = StyleSheet.create({
   backgroundImageTwo:{
   flex: 1,
